@@ -6,7 +6,7 @@ Kelompok 7 :
 - kenzio / 2440022025
 - grady / 2440009093
 
-Berikut ini adalah tampilan homepage dari website kami:
+Home screen:
 ![Hompage](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20home%201.png)
 
 ![Hompage](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20home%202.png)
@@ -14,3 +14,11 @@ Berikut ini adalah tampilan homepage dari website kami:
 ![Hompage](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20home%203.png)
 
 ![Hompage](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20home%204.png)
+
+bagian profile
+
+![Profile Page](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20Ivo.png)
+
+![Profile Page](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20Ken.png)
+
+![Profile Page](https://github.com/ivoherid/webprog/blob/master/Screenshots/SS%20Gred.png)
