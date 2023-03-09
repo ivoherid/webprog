@@ -1,2 +1,2 @@
-### Webprog ###
-untuk melihat hasil maka go to branch Master
+### Webprog Task###
+Untuk melihat hasil silahkan menuju branch Master
