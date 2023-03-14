@@ -140,6 +140,31 @@ body {
         margin: 20px 0px;
     }
 }
+
+
+
+    .box {
+        margin-top: 50px;
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+        position: relative;
+    }
+
+    @for($i = 1; $i <= 10; $i++)
+        .box:nth-child({{ $i }}) {
+            animation: box-animation-{{ $i }} 2s ease-in-out {{ ($i - 1) * 0.2 }}s infinite alternate;
+        }
+
+        @keyframes box-animation-{{ $i }} {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(500px);
+            }
+        }
+    @endfor
     </style>
 <div class="container">
             <div class="row">
@@ -153,7 +178,7 @@ body {
                             <h4 class="pt-2">Ivo Herid</h4>
                             <h5>Binus University Student</h5>
                             <h5>2440019844</h5>
-
+        
                             <ul class="social-icons d-flex justify-content-center">
                                 <li style="--i:1">
                                     <a href="profile/ivo">
@@ -202,7 +227,16 @@ body {
                         </div>
                     </div>
                 </div>
-
+                <div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
             </div>
         </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

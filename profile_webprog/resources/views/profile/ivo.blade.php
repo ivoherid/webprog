@@ -105,6 +105,8 @@ body{
        color:#fff;
         height:40px;
 }
+
+
 </style>
 <body>
 <div class="container mt-5">
@@ -151,6 +153,10 @@ body{
                         <button class="btn btn-outline-primary px-4" ><a href="{{ url()->previous() }}">Back</a></button>
                     </div>
                     
+                    <div class="buttons"> 
+                        <button class="btn btn-outline-primary px-4" onclick="changebackground()" >Change Background</button>
+                    </div>
+                    
                     
                 </div>
                 
@@ -165,4 +171,22 @@ body{
     
 </div>
 </body>
+<script>
+    var x=0;
+    function changebackground() {
+      x++;
+      
+    if(x==1){
+        document.body.style.backgroundImage = "url('../img/ivo2.gif')";
+    }
+    if(x==2){
+        document.body.style.backgroundImage = "url('../img/home_bg.gif')";
+    }
+    if(x==3){
+        document.body.style.backgroundImage = "url('../img/bg_ken.gif')";
+    }
+    }
+    
+
+</script>
 </html>
